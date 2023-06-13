@@ -1,0 +1,27 @@
+.suggestions {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.suggestions_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.suggestions__title {
+  color: gray;
+  font-weight: bold;
+}
+
+.suggestions__more {
+  color: #fff;
+  background: 0;
+  border: 0;
+  margin-right: 8px;
+}
+
+.suggestions__more:hover {
+  color: gray;
+  cursor: pointer;
+}
